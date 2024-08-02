@@ -34,7 +34,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rexml'
+  gem 'rexml', '>= 3.3.3', '>= 3.3.3'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.0.3'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
@@ -50,9 +50,9 @@ group :test do
   gem 'rexml'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 4.5.0'
   # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
+  gem 'webdrivers', '>= 5.1.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
