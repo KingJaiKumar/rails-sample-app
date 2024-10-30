@@ -34,7 +34,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rexml'
+  gem 'rexml', '>= 3.3.9', '>= 3.3.9'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.0.3'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
