@@ -46,7 +46,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rexml'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
